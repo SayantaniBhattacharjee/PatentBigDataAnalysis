@@ -1,0 +1,357 @@
+single_patent_file = open("single_patent_file.xml","w")
+single_patent_file.write("""<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v42-2006-08-23.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.2 2006-08-23" file="USD0629176-20101221.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20101207" date-publ="20101221">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>D0629176</doc-number>
+<kind>S1</kind>
+<date>20101221</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="design">
+<document-id>
+<country>US</country>
+<doc-number>29316151</doc-number>
+<date>20090828</date>
+</document-id>
+</application-reference>
+<us-application-series-code>29</us-application-series-code>
+<rule-47-flag/>
+<us-term-of-grant>
+<length-of-grant>14</length-of-grant>
+</us-term-of-grant>
+<classification-locarno>
+<edition>9</edition>
+<main-classification>0202</main-classification>
+</classification-locarno>
+<classification-national>
+<country>US</country>
+<main-classification>D 2719</main-classification>
+</classification-national>
+<invention-title id="d2e55">Bivouac bag</invention-title>
+<references-cited>
+<citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>3857125</doc-number>
+<kind>A</kind>
+<name>Hunt</name>
+<date>19741200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  5413 R</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>4605029</doc-number>
+<kind>A</kind>
+<name>Russell</name>
+<date>19860800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>135125</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>4757832</doc-number>
+<kind>A</kind>
+<name>Russell</name>
+<date>19880700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>135128</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>4884303</doc-number>
+<kind>A</kind>
+<name>Scherer</name>
+<date>19891200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  5413 R</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>4894878</doc-number>
+<kind>A</kind>
+<name>Roach</name>
+<date>19900100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  5413 R</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>D405585</doc-number>
+<kind>S</kind>
+<name>Stevens</name>
+<date>19990200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>D 2719</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>5881405</doc-number>
+<kind>A</kind>
+<name>Garrigues</name>
+<date>19990300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  5413 R</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>5966756</doc-number>
+<kind>A</kind>
+<name>Cartier</name>
+<date>19991000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  5413 R</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>6018830</doc-number>
+<kind>A</kind>
+<name>Howe</name>
+<date>20000200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  5413 R</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>D470655</doc-number>
+<kind>S</kind>
+<name>Smith</name>
+<date>20030200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>D 3217</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>D586537</doc-number>
+<kind>S</kind>
+<name>Walker</name>
+<date>20090200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>D 2719</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>2007/0136946</doc-number>
+<kind>A1</kind>
+<name>Haislip</name>
+<date>20070600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  5413 R</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>2010/0024125</doc-number>
+<kind>A1</kind>
+<name>Li</name>
+<date>20100200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  5413 R</main-classification></classification-national>
+</citation>
+<citation>
+<nplcit num="00014">
+<othercit>DixiesCorner. http://www.dixiescornermilitarysupplies.co.uk/snugpak-stratosphere-bivi-bag-438-p.asp. Date Unknown: Viewed Aug. 2010. &#x201c;Snugpak Stratosphere Bivi Bag&#x201d;.</othercit>
+</nplcit>
+<category>cited by examiner</category>
+</citation>
+<citation>
+<nplcit num="00015">
+<othercit>Quechua. http://www.quechua.com/EN/s15-ultralight-l-113787064/. Date Unknown: Viewed Aug. 2010. &#x201c;Sac de Couchage: S15 ultralight (L)&#x201d;.</othercit>
+</nplcit>
+<category>cited by examiner</category>
+</citation>
+<citation>
+<nplcit num="00016">
+<othercit>Survival Topics. http://www.survivaltopics.com/survival/portable-shelter-types/bivy-bag-39/. Dec. 2007. &#x201c;Bivy Bag&#x201d;.</othercit>
+</nplcit>
+<category>cited by examiner</category>
+</citation>
+</references-cited>
+<number-of-claims>1</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>D 2719</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 695</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>D 6603-605</main-classification>
+<additional-info>unstructured</additional-info>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  5413 R</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  5413 AM</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>128873</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>4</number-of-drawing-sheets>
+<number-of-figures>6</number-of-figures>
+</figures>
+<parties>
+<applicants>
+<applicant sequence="001" app-type="applicant-inventor" designation="us-only">
+<addressbook>
+<last-name>Abrams</last-name>
+<first-name>Brian</first-name>
+<address>
+<street>14101 E. Whitetail La.</street>
+<city>Spokane</city>
+<state>WA</state>
+<postcode>99206</postcode>
+<country>US</country>
+</address>
+</addressbook>
+<nationality>
+<country>omitted</country>
+</nationality>
+<residence>
+<country>US</country>
+</residence>
+</applicant>
+<applicant sequence="002" app-type="applicant-inventor" designation="us-only">
+<addressbook>
+<last-name>Sachs</last-name>
+<first-name>Eric</first-name>
+<address>
+<street>1893 Cooke Avenue</street>
+<city>Rossland, BC</city>
+<postcode>BOG 1Y0</postcode>
+<country>CA</country>
+</address>
+</addressbook>
+<nationality>
+<country>omitted</country>
+</nationality>
+<residence>
+<country>CA</country>
+</residence>
+</applicant>
+</applicants>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Bowman Green Hampton &#x26; Kelly, PLLC</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</parties>
+<examiners>
+<primary-examiner>
+<last-name>Reid</last-name>
+<first-name>Stella M</first-name>
+<department>2916</department>
+</primary-examiner>
+<assistant-examiner>
+<last-name>Johnson</last-name>
+<first-name>Rashida</first-name>
+</assistant-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="230.63mm" wi="189.31mm" file="USD0629176-20101221-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="247.48mm" wi="114.64mm" file="USD0629176-20101221-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="252.14mm" wi="118.70mm" file="USD0629176-20101221-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="250.11mm" wi="174.92mm" file="USD0629176-20101221-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="216.75mm" wi="105.75mm" file="USD0629176-20101221-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<p id="p-0001" num="0001"><figref idref="DRAWINGS">FIG. 1</figref> is a front elevational view of a bivouac bag, showing our new design;</p>
+<p id="p-0002" num="0002"><figref idref="DRAWINGS">FIG. 2</figref> is a rear elevational view thereof;</p>
+<p id="p-0003" num="0003"><figref idref="DRAWINGS">FIG. 3</figref> is a left side elevational view thereof;</p>
+<p id="p-0004" num="0004"><figref idref="DRAWINGS">FIG. 4</figref> is a right side elevational view thereof;</p>
+<p id="p-0005" num="0005"><figref idref="DRAWINGS">FIG. 5</figref> is a top view thereof; and,</p>
+<p id="p-0006" num="0006"><figref idref="DRAWINGS">FIG. 6</figref> is a bottom view thereof.</p>
+<p id="p-0007" num="0007">The broken lines shown throughout the various figures represent stitching.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+</description>
+<us-claim-statement>CLAIM</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>The ornamental design for a bivouac bag, substantially as shown and described.</claim-text>
+</claim>
+</claims>
+</us-patent-grant>""")
+single_patent_file.close()
